@@ -1,0 +1,38 @@
+h1{
+font-family: serif;
+}
+
+.wrapper {
+  border: 1px solid #333;
+  width: 450px;
+  padding-left: 25px;
+}
+.b,.c,.d{
+  float: left;
+}
+
+.c ul {
+list-style-type: none;
+}
+
+.b {
+  margin-top: 28px;
+  background-color: green;
+  color: red;
+  font-size: 23px;
+  padding: 7px;
+}
+
+.d {
+  background-color: red;
+  color: green;
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 23px;
+  padding: 7px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
