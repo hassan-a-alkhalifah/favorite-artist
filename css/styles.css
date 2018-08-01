@@ -6,6 +6,7 @@ font-family: serif;
   border: 1px solid #333;
   width: 450px;
   padding-left: 25px;
+  float: left;
 }
 .b,.c,.d{
   float: left;
@@ -13,6 +14,7 @@ font-family: serif;
 
 .c ul {
 list-style-type: none;
+color: purple;
 }
 
 .b {
@@ -27,7 +29,7 @@ list-style-type: none;
   background-color: red;
   color: green;
   margin-top: 25px;
-  margin-left: 20px;
+  margin-left: 35px;
   font-size: 23px;
   padding: 7px;
 }
@@ -35,4 +37,27 @@ list-style-type: none;
   content: "";
   clear: both;
   display: table;
+}
+.e {background-color: red;
+color: green;
+margin-top: 25px;
+margin-left: 18px;
+font-size: 23px;
+padding: 7px;
+}
+.f {
+  background-color: red;
+  color: green;
+  margin-top: 25px;
+  margin-left: 15px;
+  font-size: 23px;
+  padding: 7px;
+}
+.image-container {
+  float: right;
+}
+body {
+  background-image: url("https://media1.giphy.com/media/unRa3ffljnuec/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
